@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>game</title>
+    <link rel="stylesheet" href="game.css">
+</head>
+<body>
+    <h1><span id="player1">0</span> - <span id="player2">0</span></h1>
+    <div class="game">
+        <div class="you">
+            <h1>You</h1>
+            <img src="" id="youHand" alt="" width="80%">
+            <div class="classimg">
+                <img src="./assets/rock-logo.png" id="rockbtn">
+                <img src="./assets/paper-logo.png"id="paperbtn">
+                <img src="./assets/scissors-logo.png"id="scissorsbtn">
+            </div>
+            
+        </div>
+        <div class="img">
+            <img width="100px" src="./assets/vs.png" >
+        </div>
+        <div class="comp">
+            <h1>Computer</h1>
+            <img src="" id="compHand" alt="">
+
+        </div>
+    </div>
+    <div class="gameover" id="gameover">
+        <h2 id="winLoss">You Won the game!!</h2>
+        <button id="playAgain">Play Again</button>
+    </div>
+</body>
+<script src="game.js"></script>
+</html>

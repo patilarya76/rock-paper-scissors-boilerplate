@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Poppins:wght@100;300;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./assets/bg.png);
+    background-size: cover;
+}
+
+h1{
+    color: white;
+    font-family: 'poppins';
+    text-align:center;
+    font-size:90px;
+}
+
+.game{
+    display:flex;
+    justify-content:space-evenly;
+   
+}
+
+.you{
+    border:2px solid rgb(221, 189, 28);
+   width:500px;
+   height:500px;
+}
+
+.you h1{
+    font-size:50px
+}
+
+.classimg{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+}
+
+#rockbtn{
+    position: fixed;
+    top: 500px;
+    left: 150px;
+}
+
+#paperbtn{
+    position: fixed;
+    top: 500px;
+    left: 300px;
+}
+
+#scissorsbtn{
+    position: fixed;
+    top: 500px;
+    left: 450px;
+}
+.comp{
+    border:2px solid rgb(221, 189, 28);
+    width: 500px;
+    height:500px;
+    
+}
+
+.comp h1{
+    font-size:50px;
+}
+
+.gameover{
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    display: none;
+}
+
+.gameover button{
+    background-color: #ffc434;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
